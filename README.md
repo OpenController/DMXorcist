@@ -3,24 +3,19 @@
 <i>Expirimental & Professional Grade DMX Microcontroller</i> 
 
 LIBRARIES USED:
-  - TeensyDmx Library
-  - U8G2 Library
-  - Keypad Library
+  - ESP32DMX??
+  - ESP32Wifi
   - EasingLibrary
   
-
-
-FEATURES:
+FUTURE FEATURES:
   - 8 or 16-bit DMX Support 
-  - 12 Key keypad parsing (1, 2, 3, 4, 5, 6, 7, 8, 9, 0, And, Minus, S, @, Enter, Thru) 
-  - momentary, latch or instantaneous buttons
-  - Stable analog to DMX conversion for potentiometers and other sensors
+  - JSON/iOS parsing of DMX Commands
 
    IN THE WORKS:
   - interpolation algorithms using the easing library
-  - Pockonsole Mini (faders are replaced by knobs)
-  - DMX timing variables and state machine
+  - DMXorcist (faders are replaced by iOS control)
 
+0.1.1 - (FORK to ES32) Decided to fork for use with ESP32 instead of Teensy 3.6
 0.1.0 - Slowly implementing Easing first with display then with DMX (very early stages)
 0.0.9 - Added clearbuffer and sendbuffer statements into previous U8G2 print functions
 0.0.8 - Added a switch for Serial debug or OLED
