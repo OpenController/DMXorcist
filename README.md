@@ -3,7 +3,7 @@
 <i>Expirimental & Professional Grade DMX Microcontroller</i> 
 
 LIBRARIES USED:
-  - ESP32DMX??
+  - ArtnetWifi
   - ESP32Wifi
   - EasingLibrary
   
